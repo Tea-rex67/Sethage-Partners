@@ -318,8 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
       totalPrice.textContent = chosenPrice;
     });
   });
-
-  // Next button
+// Next button
   nextBtn.addEventListener("click", () => {
     if (!chosenService) {
       alert("Please select a service first.");
@@ -334,10 +333,9 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     link.classList.add('active');
   }
 });
-
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll(".nav_links");
-// 1. Detect current page and activate correct link
+  // 1. Detect current page and activate correct link
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
   links.forEach(link => {
@@ -346,8 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
       link.classList.add("active");
     }
   });
-
-  // 2. Change active link on click
+ // 2. Change active link on click
   links.forEach(link => {
     link.addEventListener("click", () => {
       links.forEach(l => l.classList.remove("active"));
