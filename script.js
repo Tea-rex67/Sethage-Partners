@@ -339,7 +339,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const links = document.querySelectorAll(".nav-link");
+  const links = document.querySelectorAll(".nav_link");
 
   links.forEach(link => {
     link.addEventListener("click", () => {
