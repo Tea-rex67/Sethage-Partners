@@ -59,6 +59,13 @@ body {
   gap: 35px;
 }
 
+.nav-link.active {
+  color: #d8a74b;
+  font-weight: 600;
+  border-bottom: 2px solid #d4af37;
+}
+
+
 .nav-links a {
   text-decoration: none;
   color: white;
