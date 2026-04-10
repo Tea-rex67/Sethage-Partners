@@ -339,7 +339,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const links = document.querySelectorAll(".nav_link");
+  const links = document.querySelectorAll(".nav_links");
 
   // 1. Detect current page and activate correct link
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
