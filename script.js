@@ -330,13 +330,11 @@ document.addEventListener("DOMContentLoaded", () => {
     step2.classList.add("active");
   });
 
-
 document.querySelectorAll('.nav-links a').forEach(link => {
   if (link.href === window.location.href) {
     link.classList.add('active');
   }
 });
-
 
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll(".nav_links");
@@ -359,4 +357,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
