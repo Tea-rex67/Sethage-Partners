@@ -318,6 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
       totalPrice.textContent = chosenPrice;
     });
   });
+
 // Next button
   nextBtn.addEventListener("click", () => {
     if (!chosenService) {
@@ -335,6 +336,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 });
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll(".nav_links");
+  
   // 1. Detect current page and activate correct link
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
@@ -344,6 +346,7 @@ document.addEventListener("DOMContentLoaded", () => {
       link.classList.add("active");
     }
   });
+  
  // 2. Change active link on click
   links.forEach(link => {
     link.addEventListener("click", () => {
