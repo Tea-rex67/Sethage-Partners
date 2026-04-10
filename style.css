@@ -19,7 +19,7 @@ body {
 -------------------------------------------------- */
 .hero {
   height: 75vh;
- background-image: url("Image-folders/Seth-Legal.jpg");
+ background-image: url("Seth-Legal.jpg");
     background-position: center right;
     background-position-x: right;
     background-position-y: center;
@@ -1137,7 +1137,7 @@ body {
 .hero1 {
   height: 520px;
   width: 100%;
-background-image: url("Image-folders/appointment-bg.jpg");
+background-image: url("appointment-bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1342,7 +1342,7 @@ background-image: url("Image-folders/appointment-bg.jpg");
 .header-spotlight {
   position: relative;
   height: 75vh;
-  background-image: url(Image-folders/about-us-1-1-bg.jpg);
+  background-image: url("about-us-1-1-bg.jpg");
     background-position: center center;
     background-position-x: center;
     background-position-y: center;
@@ -1514,7 +1514,7 @@ background-image: url("Image-folders/appointment-bg.jpg");
 
 .hero2 {
   height: 75vh;
-background-image: url("Image-folders/about-us-1-1-bg.jpg");
+background-image: url("about-us-1-1-bg.jpg");
     background-position: center center;
     background-size: cover;
     background-color: var(--e-global-color-astglobalcolor7);
@@ -2322,7 +2322,7 @@ body {
   height: 90vh;
   position: relative;
 
-  background: url("Image-folders/about-us-1-1.jpg") no-repeat center/cover;
+  background: url("about-us-1-1.jpg") no-repeat center/cover;
 
   color: #fff;
   display: flex;
@@ -2817,7 +2817,7 @@ body {
   position: relative;
   width: 100%;
   height: 90vh;
-  background: url('Image-folders/contact-bg.jpg') center/cover no-repeat;
+  background: url('contact-bg.jpg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
