@@ -1342,7 +1342,7 @@ background-image: url("appointment-bg.jpg");
 .header-spotlight {
   position: relative;
   height: 75vh;
-  background-image: url("about-us-1-1-bg.jpg");
+  background-image: url(about-us-1-1-bg.jpg);
     background-position: center center;
     background-position-x: center;
     background-position-y: center;
@@ -1747,6 +1747,8 @@ background-image: url("about-us-1-1-bg.jpg");
   line-height: 1.85;
   color: #333;
   margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 20px;
 }
 
 .firm-btn {
@@ -1760,6 +1762,8 @@ background-image: url("about-us-1-1-bg.jpg");
   letter-spacing: 0.5px;
   transition: 0.3s ease;
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 40px 140px;
 }
 
 .firm-btn:hover {
@@ -1789,6 +1793,37 @@ background-image: url("about-us-1-1-bg.jpg");
   .firm-container {
     grid-template-columns: 1fr;
   }
+
+ .aboutUs-hero-content {
+  margin-top: 70px;
+ }
+
+  .firm-btn {
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  .talk-container {
+    padding: 35px;
+  }
+
+ .image-box2::before {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+ .image-box {
+  margin-left: 40px;
+ }
+
+.image-box::before {
+ padding-left: -25px;
+ 
+}
+
+.image-box2 {
+  padding: 25px;
+}
 
   .about-photo-frame,
   .firm-image-box {
@@ -1835,7 +1870,8 @@ background-image: url("about-us-1-1-bg.jpg");
 
   .about-text {
     width: 100%;
-    padding-top: 0px;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
   }
 
   .about-text p {
@@ -1901,7 +1937,8 @@ background-image: url("about-us-1-1-bg.jpg");
 /* -------- MOBILE (below 480px) -------- */
 @media (max-width: 480px) {
   .about-section {
-    padding: 50px 0;
+    padding: 50px 10px;
+    text-align: center;
   }
 
   .about-text h2 {
@@ -1911,6 +1948,8 @@ background-image: url("about-us-1-1-bg.jpg");
   .about-text p {
     font-size: 13.5px;
     line-height: 1.8;
+    padding: 1.3rem;
+    text-align: center;
   }
 
   .about-image-wrap img {
@@ -1995,6 +2034,7 @@ background-image: url("about-us-1-1-bg.jpg");
     flex-direction: column;
     gap: 60px;
   }
+
 
   .about-continue-left,
   .about-continue-right {
@@ -3264,3 +3304,42 @@ body {
   margin-top: 1rem;
 }
 
+/* ===== Developed By Section (Blue & White) ===== */
+.dev-by {
+  width: 100%;
+  background: #0a2a43; /* deep tech blue */
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-container {
+  text-align: center;
+}
+
+.dev-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.dev-brand {
+  font-weight: 600;
+  color: #4db8ff; /* bright modern blue */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dev-brand:hover {
+  color: #aee2ff; /* lighter hover blue */
+  text-shadow: 0 0 8px rgba(77, 184, 255, 0.6);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .dev-text {
+    font-size: 1rem;
+  }
+}
