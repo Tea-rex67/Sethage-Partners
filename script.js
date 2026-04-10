@@ -329,7 +329,6 @@ document.addEventListener("DOMContentLoaded", () => {
     step1.classList.remove("active");
     step2.classList.add("active");
   });
-
 document.querySelectorAll('.nav-links a').forEach(link => {
   if (link.href === window.location.href) {
     link.classList.add('active');
@@ -338,8 +337,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll(".nav_links");
-
-  // 1. Detect current page and activate correct link
+// 1. Detect current page and activate correct link
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
   links.forEach(link => {
